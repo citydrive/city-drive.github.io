@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product2 Details</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+
+            .small-img-group {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .small-img-col {
+                flex-basis: 24%;
+                cursor: pointer;
+            }
+
+            .sproduct2 select {
+                display: block;
+                padding: 5px 10px;
+            }
+
+            .sproduct2 input {
+                width: 50px;
+                height: 40px;
+                padding-left: 10px;
+                font-size: 16px;
+                margin-right: 10px;
+            }
+
+            .sproduct2 input:focus {
+                outline: none;
+            }
+
+            .buy-btn {
+                background: #3a6cf4;
+                opacity: 1;
+                transition: 0.3s all;
+            }
+        </style>
+
+        
+
+
+
+    </head>
+
+    <body>
+
+
+        
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+            <div class="container">
+              <a href="#" class="logo">City-drive</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+               aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i id="bar" class="fas fa-bars"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="voitures.html">Voitures</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="bus.html">Bus</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="bateaux.html">Bateaux</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="mini-bus.html">Mini-Bus</a>
+                  </li>
+                  
+                  
+                  
+              </div>
+            </div>
+          </nav>
+
+          <section class="container sproduct2 my-5 pt-5">
+              <div class="row mt-5">
+                  <div class="col-lg-5 col-md-12 col-12">
+                      <img class="img-fluid w-100 pb-1" src="renault-clio.jpg" id="MainImg" alt="">
+
+                      <div class="small-img-group">
+                          <div class="small-img-col">
+                          <img src="renault-clio.jpg" width="100%" class="small-img" alt="">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="renault-clio.png" width="100%" class="small-img" alt="">
+                          </div>
+                          <div class="small-img-col">
+                            <img src="Renault-Clio-2.png" width="100%" class="small-img" alt="">
+                          </div>
+                          <div class="small-img-col">
+                            <img src="Renault-clio-5-gris-titanium-1-1068x711-removebg-preview.png" width="100%" class="small-img" alt="">
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 col-12">
+                      <h6>Home / Voitures</h6>
+                      <h3 class="py-4">Clio 5</h3>
+                      <h2>$32.29</h2>
+                      <select class="my-3">
+                          <option>Select Period</option>
+                          <option>24H</option>
+                          <option>48H</option>
+                          <option>Week</option>
+                          <option>Month</option>
+                      </select>
+                      <input type="number" value="1">
+                      <button class="buy-btn">Add To Cart</button>
+                      <h4 class="mt-5 mb-5">Cars Details</h4>
+                      <span>Avec le tout nouveau système embarqué EASY LINK, profitez d’un système multimédia
+                         personnalisable, intuitif et facile à manipuler, grâce à l’écran tactile haute résolution allant jusqu’à 9.3’’… 
+                        Nouvelle CLIO vous fait vivre une expérience de 
+                        conduite avec un maximum de technologies et ce, en toute simplicité .Aussi à l’aise en ville que sur les routes,
+                         la citadine iconique vous protège à chaque instant grâce à ses différentes aides à la conduite.</span>
+                      
+                  </div>
+              </div>
+          </section>
+
+          <section id="featured" class="my-5 pb-5">
+            <div class="container text-center mt-5 py-5">
+              <h3>Other Cars</h3>
+              <hr class="mx-auto">
+            </div>
+            <div class="row mx-auto container-fuild">
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="26-264958_mercedes-benz-s-class-w222-hd-png-download.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Mercedes Bens S class W222</h5>
+                <h4 class="p-price">$106.56</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="bentley.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Bentley Mulliner</h5>
+                <h4 class="p-price">$86.11</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="mini-illustration-29134.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Minicooper</h5>
+                <h4 class="p-price">$80.73</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="119-1192015_carro-hyundai-i20-2018-png.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Hyundai 2018</h5>
+                <h4 class="p-price">$19.37</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+            </div>
+          </section>
+
+
+
+          <footer class="mt-5 py-5">
+            <div class="row mx-auto pt-5">
+              <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <a href="#" class="logo">City-drive</a>
+                <p class="pt-3">The first site of its kind in Morocco<br>
+                   A new idea with excellent offers and<br> services available,
+                   in addition to fast<br> delivery in all categories.</p>
+              </div>
+              <div class="footer-one col-lg-3 col-md-6 col-12">
+                <h5 class="pb-2">Categories</h5>
+                <ul class="text-uppercase list-unstyled">
+                  <li><a href="voitures.html">Voitures</a></li>
+                  <li><a href="bus.html">Bus</a></li>
+                  <li><a href="bateaux.html">Bateaux</a></li>
+                  <li><a href="mini-bus.html">Mini-Bus</a></li>
+                  <li><a href="">new discounts</a></li>
+                  <li><a href="">prices</a></li>
+                  <li><a href="">offers</a></li>
+
+                </ul>
+              </div>
+              <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Contact Us</h5>
+                <div>
+                  <h6 class="text-uppercase">Address</h6>
+                  <p>120 CENTRE VILLE, CASABLANCA</p>
+                </div>
+                <div>
+                  <h6 class="text-uppercase">Phone</h6>
+                  <p>(+212) 656-789020</p>
+                </div>
+                <div>
+                  <h6 class="text-uppercase">Email</h6>
+                  <p>OURTEAM123@GMAIL.COM</p>
+                </div>
+              </div>
+
+              <div class="footer-one col-lg-3 col-md-6 col-12">
+                <h5 class="pb-2">Instagram</h5>
+               <div class="row">
+                 <img class="img-fluid w-25 h-100 m-2" src="car20.jpg" alt="">
+                 <img class="img-fluid w-25 h-100 m-2" src="car18.jpg" alt="">
+                 <img class="img-fluid w-25 h-100 m-2" src="car16.jpg" alt="">
+                 <img class="img-fluid w-25 h-100 m-2" src="car12.jfif" alt="">
+                 <img class="img-fluid w-25 h-100 m-2" src="car13.jpg" alt="">
+               </div>
+              </div>
+            </div>
+
+            <div class="copyright mt-5">
+              <div class="row container mx-auto">
+
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                  <img src="img/payment.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 text-nowrap mb-2">
+                  <p>City-Drive Website © 2022. All Rights Reserved</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <a href="https://www.google.com/search?q=www.facebook+lite&oq=www.
+                  face&aqs=chrome.2.69i60j69i57j0i512l4j69i60l2.5933j0j4&sourceid=chrome&ie=UTF-8"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://twitter.com/?lang=fr"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/?hl=fr"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+         <script>
+             var MainImg = document.getElementById('MainImg');
+             var smalling = document.getElementsByClassName('small-img');
+
+             smalling[0].onclick = function(){
+                 MainImg.src = smalling[0].src;
+             }
+             smalling[1].onclick = function(){
+                 MainImg.src = smalling[1].src;
+             }
+             smalling[2].onclick = function(){
+                 MainImg.src = smalling[2].src;
+             }
+             smalling[3].onclick = function(){
+                 MainImg.src = smalling[3].src;
+             }
+         </script>
+
+
+
+
+    </body>
+
+</html>

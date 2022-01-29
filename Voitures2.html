@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Voitures2</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="style.css">
+        
+        <style>
+            .product image {
+                width: 100%;
+                height: auto;
+                box-sizing: border-box;
+                object-fit: cover;
+            }
+
+            #featured >div.row.mx-auto.container>nav>ul>li.page-item.active>a {
+                background-color: black;
+            }
+
+            #featured >div.row.mx-auto.container>nav>ul>li:nth-child(n):hover>a{
+                background-color: #3a6cf4;
+                color: #fff;
+            }
+
+            .pagination a{
+                color: #000;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top ">
+            <div class="container">
+              <a href="#" class="logo">City-drive</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+               aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i id="bar" class="fas fa-bars"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Voitures</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="bus.html">Bus</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="bateaux.html">Bateaux</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="bateaux.html">Mini-Bus</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+
+
+        
+    
+        
+
+
+        <section id="featured" class="my-5 py-5">
+            <div class="container  mt-5 py-5">
+              <h2 class="font-weight-bold">Our Cars</h2>
+              <hr>
+              <p1>All Cars are of high quality and offer private chauffeur service.</p1>
+            </div>
+            <div class="row mx-auto container">
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="5a58ec38-4dbd-4512-b3ed-d938919164ea.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Acura Antegra</h5>
+                <h4 class="p-price">$16.11</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="porsche-illustration-29292.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Porshe</h5>
+                <h4 class="p-price">$80.54</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="225-2256622.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Holden</h5>
+                <h4 class="p-price">$48.32</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="290-2906115.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Land Cruiser</h5>
+                <h4 class="p-price">$71.52</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="327-3277476_overview-lotus-car-manila.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Lotus</h5>
+                <h4 class="p-price">$108.24</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="ge5760821516472674754.jpg" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Coda</h5>
+                <h4 class="p-price">$12.89</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="png_chrysler_19730.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Chrysler</h5>
+                <h4 class="p-price">$83.76</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="73-735590.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Cherey</h5>
+                <h4 class="p-price">$60.13</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="chevrolet-aveo.54616.jpg" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Chevrolet Aveo</h5>
+                <h4 class="p-price">$33.29</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="355-3552372_ford-ecosport-titanium-hd-png-download.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Ford Ecosport</h5>
+                <h4 class="p-price">$45.10</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="isuzu_PNG9.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Isuzu</h5>
+                <h4 class="p-price">$10.74</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="235-2357406_2017.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Lexus Is300</h5>
+                <h4 class="p-price">$47.25</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="2017-luxgen-wallpaper-preview.jpg" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Luxgen</h5>
+                <h4 class="p-price">$99.87</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="rZLUTip.jpg" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Mazda Rx-7</h5>
+                <h4 class="p-price">$91.27</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="d02928461590ff57b9862f1c27df0c24.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Toyota Rav4</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="2022-Opel-Crossland-X.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Opel Crossland</h5>
+                <h4 class="p-price">$59.06</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="mitsubishi-l200-wallpaper-6.jpg" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Mtsubishi L200</h5>
+                <h4 class="p-price">$21.48</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="29-298007_bmw-i8-png-bmw-i8-clipart.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Bmw I8</h5>
+                <h4 class="p-price">$107.38</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="74-747379_2018.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Alpha Romeo 4c</h5>
+                <h4 class="p-price">$108.56</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="bentley_exp_100_gt_concept_2019_0002_1.jpg" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Bentley Xp100</h5>
+                <h4 class="p-price">$109.00</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+
+              <nav aria-label="...">
+                <ul class="pagination mt-5">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="voitures.html">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="voitures.html">1</a></li>
+                  <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="Voitures2.html">2</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="voitures3.html">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="voitures3.html">Next</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </section>
+
+
+
+          <footer class="mt-5 py-5">
+            <div class="row mx-auto pt-5">
+              <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <a href="#" class="logo">City-drive</a>
+                <p class="pt-3">The first site of its kind in Morocco<br>
+                   A new idea with excellent offers and<br> services available,
+                   in addition to fast<br> delivery in all categories.</p>
+              </div>
+              <div class="footer-one col-lg-3 col-md-6 col-12">
+                <h5 class="pb-2">Categories</h5>
+                <ul class="text-uppercase list-unstyled">
+                  <li><a href="voitures.html">Voitures</a></li>
+                  <li><a href="bus.html">Bus</a></li>
+                  <li><a href="bateaux.html">Bateaux</a></li>
+                  <li><a href="mini-bus.html">Mini-Bus</a></li>
+                  <li><a href="">new discounts</a></li>
+                  <li><a href="">prices</a></li>
+                  <li><a href="">offers</a></li>
+
+                </ul>
+              </div>
+              <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Contact Us</h5>
+                <div>
+                  <h6 class="text-uppercase">Address</h6>
+                  <p>120 CENTRE VILLE, CASABLANCA</p>
+                </div>
+                <div>
+                  <h6 class="text-uppercase">Phone</h6>
+                  <p>(+212) 656-789020</p>
+                </div>
+                <div>
+                  <h6 class="text-uppercase">Email</h6>
+                  <p>OURTEAM123@GMAIL.COM</p>
+                </div>
+              </div>
+
+              <div class="footer-one col-lg-3 col-md-6 col-12">
+                <h5 class="pb-2">Instagram</h5>
+               <div class="row">
+                 <img class="img-fluid w-25 h-100 m-2" src="car20.jpg" alt="">
+                 <img class="img-fluid w-25 h-100 m-2" src="car18.jpg" alt="">
+                 <img class="img-fluid w-25 h-100 m-2" src="car16.jpg" alt="">
+                 <img class="img-fluid w-25 h-100 m-2" src="car12.jfif" alt="">
+                 <img class="img-fluid w-25 h-100 m-2" src="car13.jpg" alt="">
+               </div>
+              </div>
+            </div>
+
+            <div class="copyright mt-5">
+              <div class="row container mx-auto">
+
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                  <img src="img/payment.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 text-nowrap mb-2">
+                  <p>City-Drive Website © 2022. All Rights Reserved</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <a href="https://www.google.com/search?q=www.facebook+lite&oq=www.
+                  face&aqs=chrome.2.69i60j69i57j0i512l4j69i60l2.5933j0j4&sourceid=chrome&ie=UTF-8"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://twitter.com/?lang=fr"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/?hl=fr"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+
+
+    </body>
+</html>

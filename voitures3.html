@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Voitures3</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="style.css">
+        
+        <style>
+            .product image {
+                width: 100%;
+                height: auto;
+                box-sizing: border-box;
+                object-fit: cover;
+            }
+
+            #featured >div.row.mx-auto.container>nav>ul>li.page-item.active>a {
+                background-color: black;
+            }
+
+            #featured >div.row.mx-auto.container>nav>ul>li:nth-child(n):hover>a{
+                background-color: #3a6cf4;
+                color: #fff;
+            }
+
+            .pagination a{
+                color: #000;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top ">
+            <div class="container">
+              <a href="#" class="logo">City-drive</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+               aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i id="bar" class="fas fa-bars"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="voitures.html">Voitures</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="bus.html">Bus</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="bateaux.html">Bateaux</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="mini-bus.html">Mini-Bus</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+
+
+        
+    
+        
+
+
+        <section id="featured" class="my-5 py-5">
+            <div class="container  mt-5 py-5">
+              <h2 class="font-weight-bold">Our Cars</h2>
+              <hr>
+              <p1>All cars are of high quality and offer private chauffeur service.</p1>
+            </div>
+            <div class="row mx-auto container">
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="Panda-City-Life-Model-page-Gelato-White-Car-Desktop-680x430.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Fiat Panda</h5>
+                <h4 class="p-price">$26.85</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="purepng.com" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Gmc</h5>
+                <h4 class="p-price">$41.88</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="purepng.com-hummer.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Hummer</h5>
+                <h4 class="p-price">$93.42</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="0c713ee0a79141acbb9ac21810d95840.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Skoda Rapid</h5>
+                <h4 class="p-price">$69.80</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="tesla-model-s-2018.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Tesla Model S</h5>
+                <h4 class="p-price">$106.85</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="mosler_mt900s.jpg" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Mosler Mt900s</h5>
+                <h4 class="p-price">$107.38</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="Ceramic-Coating1.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Bmw</h5>
+                <h4 class="p-price">$85.91</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="5d4db6e517a689e87c4266f61d77f803.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Audi</h5>
+                <h4 class="p-price">$60.13</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="672-6728198.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Jeep Renegarde</h5>
+                <h4 class="p-price">$69.80</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="renault_meganeIII_coupe.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Renault Megane 3</h5>
+                <h4 class="p-price">$19.33</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="4571032b059ec.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Mercedes Benz G550</h5>
+                <h4 class="p-price">$83.76</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="audi-a3-2020-2021-1597993740.887832.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Audi A3</h5>
+                <h4 class="p-price">$69.80</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="lamborghini-veneno-45949-1920x1200.jpg" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Lamborghini</h5>
+                <h4 class="p-price">$109.00</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="503-5033920.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Maserati Levante</h5>
+                <h4 class="p-price">$102.55</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="MOT_XB1_HSV_GTS.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Hsv</h5>
+                <h4 class="p-price">$53.69</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="13-135683.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Chevrolet Cruze</h5>
+                <h4 class="p-price">$42.95</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="do-cap-image.jfif" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Citroen Ds5</h5>
+                <h4 class="p-price">$12.89</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="acura_PNG38.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Acura</h5>
+                <h4 class="p-price">$92.35</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="peugeot-301-png.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Peugeot 301</h5>
+                <h4 class="p-price">$26.85</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="175-1751040_nissan.png" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Nissan Micra</h5>
+                <h4 class="p-price">$53.69</h4>
+                <button class="buy-btn">Get Now</button>
+              </div>
+
+              <nav aria-label="...">
+                <ul class="pagination mt-5">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="Voitures2.html">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="voitures.html">1</a></li>
+                  <li class="page-item" aria-current="page">
+                    <a class="page-link" href="Voitures2.html">2</a>
+                  </li>
+                  <li class="page-item active"><a class="page-link" href="voitures3.html">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </section>
+
+
+
+          <footer class="mt-5 py-5">
+            <div class="row mx-auto pt-5">
+              <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <a href="#" class="logo">City-drive</a>
+                <p class="pt-3">The first site of its kind in Morocco<br>
+                   A new idea with excellent offers and<br> services available,
+                   in addition to fast<br> delivery in all categories.</p>
+              </div>
+              <div class="footer-one col-lg-3 col-md-6 col-12">
+                <h5 class="pb-2">Categories</h5>
+                <ul class="text-uppercase list-unstyled">
+                  <li><a href="voitures.html">Voitures</a></li>
+                  <li><a href="bus.html">Bus</a></li>
+                  <li><a href="bateaux.html">Bateaux</a></li>
+                  <li><a href="mini-bus.html">Mini-Bus</a></li>
+                  <li><a href="">new discounts</a></li>
+                  <li><a href="">prices</a></li>
+                  <li><a href="">offers</a></li>
+
+                </ul>
+              </div>
+              <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Contact Us</h5>
+                <div>
+                  <h6 class="text-uppercase">Address</h6>
+                  <p>120 CENTRE VILLE, CASABLANCA</p>
+                </div>
+                <div>
+                  <h6 class="text-uppercase">Phone</h6>
+                  <p>(+212) 656-789020</p>
+                </div>
+                <div>
+                  <h6 class="text-uppercase">Email</h6>
+                  <p>OURTEAM123@GMAIL.COM</p>
+                </div>
+              </div>
+
+              <div class="footer-one col-lg-3 col-md-6 col-12">
+                <h5 class="pb-2">Instagram</h5>
+               <div class="row">
+                 <img class="img-fluid w-25 h-100 m-2" src="car20.jpg" alt="">
+                 <img class="img-fluid w-25 h-100 m-2" src="car18.jpg" alt="">
+                 <img class="img-fluid w-25 h-100 m-2" src="car16.jpg" alt="">
+                 <img class="img-fluid w-25 h-100 m-2" src="car12.jfif" alt="">
+                 <img class="img-fluid w-25 h-100 m-2" src="car13.jpg" alt="">
+               </div>
+              </div>
+            </div>
+
+            <div class="copyright mt-5">
+              <div class="row container mx-auto">
+
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                  <img src="img/payment.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 text-nowrap mb-2">
+                  <p>City-Drive Website © 2022. All Rights Reserved</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <a href="https://www.google.com/search?q=www.facebook+lite&oq=www.
+                  face&aqs=chrome.2.69i60j69i57j0i512l4j69i60l2.5933j0j4&sourceid=chrome&ie=UTF-8"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://twitter.com/?lang=fr"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/?hl=fr"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+
+
+    </body>
+</html>
